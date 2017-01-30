@@ -1,0 +1,60 @@
+/*
+* Header is static, image and nav buttons are floating left and right from each other
+* About btn, default button, when buttons are pressed they scroll to the correlating sections of the page (this is prbly done by having an id set to the div and using onclick() method)
+* The three sections, About, Portfolio, and Contact, are all seperated using bootstrap
+* The Portfolio section is using bootstrap to break the projects into rows (2 images per row)
+* Contact page, has a form which uses some jquery animation
+* The footer, is two parts.. 
+* 1st part: About this page, made by Ryan Jones.. and github, linkedin, blog
+* 2nd part: Znergy © 2017. All Rights Reversed
+*/
+
+
+/***** Header *****/
+
+/* Logo */
+
+/* Nav Buttons */
+
+
+
+/***** About *****/
+
+/* Description */
+
+/* Photo of Me */
+
+
+
+/***** Portfolio *****/
+
+/* Project Images */
+
+
+
+/***** Contact *****/
+
+/* Form */
+
+/* Send Button */
+
+/* Description */
+
+
+
+/***** Footer *****/
+
+/* About This Page */
+
+/* Clickable Icons */
+
+
+/***** Copyright *****/
+
+/* All Rights Reserved */
+
+
+
+
+
+
