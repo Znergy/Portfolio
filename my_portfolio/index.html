@@ -23,98 +23,132 @@ File Name: index.html
         
         <!-- Header -->
         
-        <img src="images/logo.png" alt="logo">
-        <button id="about">About</button>
-        <button id="portfolio">Portfolio</button>
-        <button id="contact">Contact</button>
-        
+        <div id="header">
+            <img id="logo" src="images/logo.png">
+    
+            <a href="#"><button id="btnAbout">About</button></a>
+            <a href="#"><button id="btnPortfolio">Portfolio</button></a>
+            <a href="#"><button id="btnContact">Contact</button></a>
+        </div>
         
         
         <!-- About -->
-    
-        <h4>This is where I'll list out who I am, what I do, etc.</h4>
         
-        <h5>This is a short slogan or just list of skills (Android - Java - SQL - Javascript)</h5>
+        <div id="about">
+            <h4 class="aboutBio">This is where I'll list out who I am, what I do, etc.</h4>
         
-        <img src="images/ryan.png" alt="Ryan Jones">
+            <h5 class="aboutSkills">This is a short slogan or just list of skills (Android - Java - SQL - Javascript)</h5>
+        
+            <img id="aboutImage" src="images/ryan.png" alt="Ryan Jones">
+        </div>
         
         
         <!-- Portfolio -->
         
-        <!-- row 1 -->
-        <h3>Portfolio</h3>
-        <img src="images/blackjack.png" alt="BlackJack Game">
-        <p>Description: this is where I would write out how, why, etc</p>
+        <div id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                        <!-- row 1 -->
+                        <h2>Portfolio</h2>
+                        <a href="#">
+                            <img class="projectImages" src="images/blackjack.png" alt="BlackJack Game">
+                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                        </a>
+            
+                        <a href="#">
+                            <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
+                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4">
         
-        <img src="images/blackjack1.jpg" alt="BlackJack Game">
-        <p>Description: this is where I would write out how, why, etc</p>
+                        <!-- row 2 -->
+                        <a href="#">    
+                            <img class="projectImages" src="images/blackjack.png" alt="BlackJack Game">
+                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                        </a>
+            
+                        <a href="#">
+                            <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
+                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                        </a>
+                    </div>
+                </div>
         
-        <!-- row 2 -->
-        <img src="images/blackjack.png" alt="BlackJack Game">
-        <p>Description: this is where I would write out how, why, etc</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                        <!-- row 3 -->
+                        <a href="#">
+                            <img class="projectImages" src="images/blackjack.png" alt="BlackJack Game">
+                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                        </a>
         
-        <img src="images/blackjack1.jpg" alt="BlackJack Game">
-        <p>Description: this is where I would write out how, why, etc</p>
-        
-        <!-- row 3 -->
-        <img src="images/blackjack.png" alt="BlackJack Game">
-        <p>Description: this is where I would write out how, why, etc</p>
-        
-        <img src="images/blackjack1.jpg" alt="BlackJack Game">
-        <p>Description: this is where I would write out how, why, etc</p>
-        
+                        <a href="#">
+                            <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
+                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     
         
         <!-- Contact -->
+        
+        <div id="contact">
     
-        <h3>Contact Me</h3>
+            <h2>Contact Me</h2>
         
-        <form>
-            <input id="name" type="text">
-            <input id="email" type="text">
-            <input id="phoneNum" type="text">
-            <input id="message" type="text"> <!-- this should have a bit more room in the css (multiline input) -->
-        </form>
-        <button id="send">Send</button>
+            <form id="contactForm">
+                <input id="name" type="text" placeholder="Name">
+                <input id="email" type="text" placeholder="Email">
+                <input id="phoneNum" type="text" placeholder="Phone Number">
+                <input id="message" type="text" placeholder="Message">
+            </form>
+            <button id="btnSend">Send</button>
         
+            <p class="contactText">Feel free to contact me for any purpose. Add more text.</p>
+            <p class="contactText">I will reply A.S.A.P.</p>
         
-        <p id="contactDescription">Feel free to contact me for any purpose. Add more text.</p>
-        <p>I will reply A.S.A.P.</p>
-        
-        
-        <p id="finalNote">Note: No Soliciting</p>
+            <p id="finalNote">Note: No Soliciting</p>
+        </div>    
         
     
         
         <!-- Footer -->
     
-        <!-- Left Side -->
-        <h3>About This Page</h3>
+        <div id="footer">
+            
+            <!-- Left Side -->
+            <h3>About This Page</h3>
+            <p>Made with love and passion by Ryan Jones</p>
         
-        <p>Made with love and passion by Ryan Jones</p>
+            <!-- Right Side -->
+            <h3>Around The Web</h3>
         
-        <!-- Right Side -->
-        <h3>Around The Web</h3>
+            <!-- Look into those type of nav buttons -->
+            <button id="github" href="#"></button>
+            <button id="linkedIn" href="#"></button>
+            <button id="blog" href="#"></button>
+        </div>
         
-        <!-- Look into those type of nav buttons -->
-        <button id="github"></button>
-        <button id="linkedIn"></button>
-        <button id="blog"></button>
         
         
         <!-- Copyright -->
-        
-        <p id="copyrightMessage">Znergy © 2017. All Rights Reversed</p>
-        
+        <div id="copyright">
+            <p id="copyrightText">Znergy © 2017. All Rights Reversed</p>
+        </div>
     
     
     
     
-    
-    
-    
-    
-    
-    
+        <!-- this plugs my javascript in -->
+        <script type="text/javascript" src="scripts/scripts.js"></script>
     </body>
 </html>

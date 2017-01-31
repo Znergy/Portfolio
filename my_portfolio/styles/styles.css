@@ -18,48 +18,191 @@ File Name: styles.css
 */
 
 
+
+/***** Generic *****/
+
+html {
+    
+}
+
+body {
+    
+}
+
+p {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+h4 {
+    
+}
+
+h5 {
+    
+}
+
+/***** End of Generic *****/
+
+
 /***** Header *****/
+
+#header {
+    
+}
 
 /* Logo */
 
+#logo {
+    
+}
+
 /* Nav Buttons */
 
+#btnAbout {
+    
+}
+
+#btnPortfolio {
+    
+}
+
+#btnContact {
+    
+}
+
+/***** End of Header *****/
 
 
 /***** About *****/
 
+#about {
+    
+}
+
 /* Description */
+
+#aboutBio {
+    
+}
+
+#aboutSkills {
+    
+}
 
 /* Photo of Me */
 
+#aboutImage {
+    
+}
+
+/***** End of About *****/
 
 
 /***** Portfolio *****/
 
+#portfolio {
+    
+}
+
 /* Project Images */
 
+.projectImages {
+    
+}
+
+/* Project Text */
+
+.projectText {
+    
+}
+
+/* Project a */
+
+#portfolio a {
+    
+}
+
+/***** End of Portfolio *****/
 
 
 /***** Contact *****/
 
+#contact {
+    
+}
+
 /* Form */
+
+#contactForm {
+    
+}
 
 /* Send Button */
 
+#btnSend {
+    
+}
+
 /* Description */
 
+.contactText {
+    
+}
+
+#finalNote {
+    
+}
+
+/***** End of Contact *****/
 
 
 /***** Footer *****/
 
 /* About This Page */
 
+#footer h3 {
+    
+}
+
+#footer p {
+    
+}
+
 /* Clickable Icons */
+
+#github {
+    
+}
+
+#linkedIn {
+    
+}
+
+#blog {
+    
+}
+
+/***** End of Footer *****/
 
 
 /***** Copyright *****/
 
+
 /* All Rights Reserved */
+
+#copyrightText {
+    
+}
+
+/***** End of Copyright *****/
 
 
 

@@ -21,6 +21,10 @@ File Name: scripts.js
 
 /* Send Button */
 
+document.getElementById("btnSend").onclick=function() {
+    
+    alert("Sent!");
+}
 
 
 /***** Footer *****/
