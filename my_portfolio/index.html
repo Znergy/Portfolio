@@ -9,139 +9,152 @@ File Name: index.html
 <html lang=en>
     
 <head>
-    <title>My Portfolio</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="Ryan Jones">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/styles.css">
 </head>
     <body>
         
         <!-- Header -->
-        
-        <div id="header">
-            <img id="logo" src="images/logo.png">
-    
-            <a href="#"><button id="btnAbout">About</button></a>
-            <a href="#"><button id="btnPortfolio">Portfolio</button></a>
-            <a href="#"><button id="btnContact">Contact</button></a>
+        <div class="header">
+        <div class="container">
+                <img id="logo" src="images/logo.png">
+            <div id="navigationBtns">
+                <a href="#"><button class="btn btn-default" id="btnAbout">About</button></a>
+                <a href="#"><button class="btn btn-primary" id="btnPortfolio">Portfolio</button></a>
+                <a href="#"><button class="btn btn-primary" id="btnContact">Contact</button></a>
+            </div>
+        </div>
         </div>
         
         
         <!-- About -->
         
-        <div id="about">
-            <h4 class="aboutBio">This is where I'll list out who I am, what I do, etc.</h4>
+        <div class="container main-container">
+            <div class="container about">
+                <div class="about-text col-md-6">
+                    <h4>This is where I'll list out who I am, what I do, etc.</h4>
+            
+                    <h5>This is a short slogan or just list of skills (Android - Java - SQL - Javascript)</h5>
+                </div>
+                <div class="col-md-6">
+                    <img id="aboutImage" class="img-circle" src="images/ryan.png" alt="Ryan Jones">
+                </div>
+            </div>
         
-            <h5 class="aboutSkills">This is a short slogan or just list of skills (Android - Java - SQL - Javascript)</h5>
         
-            <img id="aboutImage" src="images/ryan.png" alt="Ryan Jones">
-        </div>
+            <!-- Portfolio -->
         
-        
-        <!-- Portfolio -->
-        
-        <div id="portfolio">
-            <div class="container">
-                <div class="row">
+            <div class="portfolio container">
+                
+                <h2 class="headers text-center">Portfolio</h2>
                     <div class="col-md-4">
                         
                         <!-- row 1 -->
-                        <h2>Portfolio</h2>
                         <a href="#">
-                            <img class="projectImages" src="images/blackjack.png" alt="BlackJack Game">
-                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                            <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
                         </a>
             
                         <a href="#">
                             <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
-                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
                         </a>
                     </div>
-                </div>
                 
-                <div class="row">
                     <div class="col-md-4">
-        
+            
                         <!-- row 2 -->
                         <a href="#">    
-                            <img class="projectImages" src="images/blackjack.png" alt="BlackJack Game">
-                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                            <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
                         </a>
             
                         <a href="#">
                             <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
-                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
                         </a>
                     </div>
-                </div>
         
-                <div class="row">
+                
                     <div class="col-md-4">
                         
                         <!-- row 3 -->
                         <a href="#">
-                            <img class="projectImages" src="images/blackjack.png" alt="BlackJack Game">
-                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
+                            <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
                         </a>
-        
+            
                         <a href="#">
                             <img class="projectImages" src="images/blackjack1.jpg" alt="BlackJack Game">
-                            <p class="projectText">Description: this is where I would write out how, why, etc</p>
                         </a>
                     </div>
-                </div>
             </div>
+        
+            <!-- Contact -->
+        
+            <div class="contact text-center">
+                <div class="container">
+                        <h2 class="headers">Contact</h2>
+                    <div class="container">
+                        <div class="col-md-6">
+
+                            <form id="contactForm">
+                                <input class="form" id="name" type="text" placeholder="Name">
+                                <input class="form" id="email" type="text" placeholder="Email">
+                                <input class="form" id="phoneNum" type="text" placeholder="Phone Number">
+                                <input class="form" id="message" type="text" placeholder="Message">
+                            </form>
+                            <button id="btnSend">Send</button>
+                        </div>
+                  
+                        <div class="contact-text col-md-6">
+        
+                            <p class="contactText">Feel free to contact me for any purpose. Add more text.</p>
+                            <p class="contactText">I will reply A.S.A.P.</p>
+            
+                            <p id="finalNote">Note: No Soliciting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </div>
-    
-        
-        <!-- Contact -->
-        
-        <div id="contact">
-    
-            <h2>Contact Me</h2>
-        
-            <form id="contactForm">
-                <input id="name" type="text" placeholder="Name">
-                <input id="email" type="text" placeholder="Email">
-                <input id="phoneNum" type="text" placeholder="Phone Number">
-                <input id="message" type="text" placeholder="Message">
-            </form>
-            <button id="btnSend">Send</button>
-        
-            <p class="contactText">Feel free to contact me for any purpose. Add more text.</p>
-            <p class="contactText">I will reply A.S.A.P.</p>
-        
-            <p id="finalNote">Note: No Soliciting</p>
-        </div>    
-        
     
         
         <!-- Footer -->
     
         <div id="footer">
+            <div class="container text-center">
+                <!-- Left Side -->
+                <div class="col-md-6">
+                    <h3>About This Page</h3>
+                    <p>Made with love and passion by Ryan Jones</p>
+        
+                </div>
             
-            <!-- Left Side -->
-            <h3>About This Page</h3>
-            <p>Made with love and passion by Ryan Jones</p>
+                <div class="col-md-6">
+                    <!-- Right Side -->
+                    <h3>Around The Web</h3>
         
-            <!-- Right Side -->
-            <h3>Around The Web</h3>
-        
-            <!-- Look into those type of nav buttons -->
-            <button id="github" href="#"></button>
-            <button id="linkedIn" href="#"></button>
-            <button id="blog" href="#"></button>
+                    <!-- Look into those type of nav buttons -->
+                    <button id="github" href="#"></button>
+                    <button id="linkedIn" href="#"></button>
+                    <button id="blog" href="#"></button>
+                </div>
+            </div>
         </div>
         
         
         
         <!-- Copyright -->
-        <div id="copyright">
+        <div id="copyright" class="text-center">
             <p id="copyrightText">Znergy © 2017. All Rights Reversed</p>
         </div>
     

@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    
+    background-color: #333333; /* Macaroon Cream */
 }
 
 p {
@@ -49,22 +49,46 @@ h5 {
     
 }
 
+.main-container {
+    height: auto;
+}
+
 /***** End of Generic *****/
 
 
 /***** Header *****/
 
-#header {
-    
+.header {
+    background-color: #50af33; /* Spiced Berry */
+}
+
+.headers {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
 }
 
 /* Logo */
 
 #logo {
     
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* Nav Buttons */
+
+.navBtns {
+    
+}
+
+/* Nav btn div */
+#navigationBtns {
+    
+    float: right;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
 
 #btnAbout {
     
@@ -83,24 +107,39 @@ h5 {
 
 /***** About *****/
 
-#about {
-    
+.about {
+    background-color: #1e2e4c;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+/* main container */
+
+.about-main-container {
+    margin-top: 20px;
+}
+
+/* sub container */
+.about-content-container {
+    color: white;
 }
 
 /* Description */
 
-#aboutBio {
-    
-}
-
-#aboutSkills {
-    
+.about-text {
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 15px;
 }
 
 /* Photo of Me */
 
 #aboutImage {
-    
+
+    border: 3px solid white;
 }
 
 /***** End of About *****/
@@ -108,14 +147,26 @@ h5 {
 
 /***** Portfolio *****/
 
-#portfolio {
-    
+.portfolio {
+    background-color: #c0c0c0;
+    padding: 30px;
+    height: auto;
+    width: 100%;
 }
+
+/* Project container */
+
 
 /* Project Images */
 
 .projectImages {
-    
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.projectImages:hover {
+    border: 1px solid #c0c0c0;
 }
 
 /* Project Text */
@@ -130,31 +181,64 @@ h5 {
     
 }
 
+/* H2 for Portfolio and Contact */
+
+.headers {
+    padding: 10px;
+}
+
 /***** End of Portfolio *****/
 
 
 /***** Contact *****/
 
-#contact {
-    
+.contact {
+    background-color: #1e2e4c;
+    padding: 30px;
+    color: #fff;
+    height: auto;
+    width: 100%;
 }
 
+.contact h2 {
+    margin-right: 35px;
+}
 /* Form */
 
 #contactForm {
+    max-width: 300px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.form {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    margin-bottom: 5px;
     
+}
+
+/* Message input */
+
+#message {
+    padding-bottom: 50px;
 }
 
 /* Send Button */
 
 #btnSend {
-    
+    color: #000;
+    float: left;
+    margin-left: 100px;
+    padding: 5px 10px;
 }
 
 /* Description */
 
-.contactText {
-    
+.contact-text {
+    padding-top: 20px;
 }
 
 #finalNote {
@@ -165,6 +249,14 @@ h5 {
 
 
 /***** Footer *****/
+
+#footer {
+    background-color: #c0c0c0;
+    color: #333;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
 
 /* About This Page */
 
@@ -194,6 +286,13 @@ h5 {
 
 
 /***** Copyright *****/
+
+#copyright {
+    background-color: #333;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
 
 
 /* All Rights Reserved */
