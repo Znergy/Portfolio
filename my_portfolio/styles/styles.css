@@ -59,7 +59,7 @@ h5 {
 /***** Header *****/
 
 .header {
-    background-color: #50af33; /* Spiced Berry */
+    background-color: #1e2e4c; /* Spiced Berry */
     position: fixed;
     z-index: 9;
     width: 100%;
@@ -87,7 +87,6 @@ h5 {
 
 /* Nav btn div */
 #navigationBtns {
-    
     float: right;
     margin-bottom: 12px;
     margin-top: 12px;
@@ -111,12 +110,22 @@ h5 {
 /***** About *****/
 
 .about {
-    background-color: #1e2e4c;
+    background-color: #c0c0c0;
     text-align: center;
     height: auto;
     padding-top: 100px;
     padding-bottom: 20px;
     width: 100%;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about h5 {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* main container */
@@ -151,8 +160,9 @@ h5 {
 /***** Portfolio *****/
 
 .portfolio {
-    background-color: #c0c0c0;
+    background-color: #1e2e4c;
     padding: 30px;
+    color: #fff;
     height: auto;
     width: 100%;
 }
@@ -191,10 +201,16 @@ h5 {
 /***** Contact *****/
 
 .contact {
-    background-color: #1e2e4c;
-    padding: 30px;
-    color: #fff;
+    background-color: #c0c0c0;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color: #333;
     width: 100%;
+}
+
+.contact-form {
+    margin-left: 20px;
 }
 
 /* Form */
@@ -204,11 +220,10 @@ h5 {
     margin-top: 30px;
     height: auto;
     width: 100%;
-    text-align: center;
 }
 
 .form {
-    padding: 10px 60px 10px 10px;
+    padding: 10px 100px 10px 10px;
     margin-bottom: 5px;
 }
 
@@ -223,16 +238,13 @@ h5 {
 
 #btnSend {
     color: #000;
-    position: relative;
-    right: 100px;
-    margin-left: 30px;
 }
 
 /* Description */
 
 .contact-text {
-    text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
+    font-size: 17px;
 }
 
 #finalNote {
@@ -245,8 +257,8 @@ h5 {
 /***** Footer *****/
 
 #footer {
-    background-color: #c0c0c0;
-    color: #333;
+    background-color: #1e2e4c;
+    color: #fff;
     height: 100%;
     width: 100%;
     padding: 25px;
@@ -282,6 +294,7 @@ h5 {
 /***** Copyright *****/
 
 #copyright {
+    margin-top: 5px;
     background-color: #333;
     color: #fff;
     height: 100%;
