@@ -142,7 +142,7 @@ h5 {
 /* Description */
 
 .about-text {
-    color: white;
+    color: #1e2e4c;
     margin-top: 30px;
     padding-bottom: 15px;
 }
@@ -264,28 +264,9 @@ h5 {
     padding: 25px;
 }
 
-/* About This Page */
-
-#footer h3 {
-    
-}
-
-#footer p {
-    
-}
-
-/* Clickable Icons */
-
-#github {
-    
-}
-
-#linkedIn {
-    
-}
-
-#blog {
-    
+/* font-awesome */
+.fa {
+    color: white;
 }
 
 /***** End of Footer *****/

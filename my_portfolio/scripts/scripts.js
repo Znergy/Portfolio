@@ -7,8 +7,16 @@ File Name: scripts.js
 
 /***** Header *****/
 
-/* Nav Buttons */
+/* Nav Menu */
 
+function getMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
 
 
 /***** Portfolio *****/
@@ -20,11 +28,6 @@ File Name: scripts.js
 /***** Contact *****/
 
 /* Send Button */
-
-document.getElementById("btnSend").onclick=function() {
-    
-    alert("Sent!");
-}
 
 
 /***** Footer *****/

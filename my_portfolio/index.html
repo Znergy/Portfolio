@@ -17,6 +17,7 @@ File Name: index.html
     <meta name="description" content="My Portfolio">
     <meta name="author" content="Ryan Jones">
     
+    <link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -24,19 +25,27 @@ File Name: index.html
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/navmenu.css">
 </head>
     <body>
         
         <!-- Header -->
         <div class="header">
-        <div class="container">
-                <img id="logo" src="images/logo.png">
-            <div id="navigationBtns">
-                <a href="#"><button class="btn btn-default" id="btnAbout">About</button></a>
-                <a href="#"><button class="btn btn-primary" id="btnPortfolio">Portfolio</button></a>
-                <a href="#"><button class="btn btn-primary" id="btnContact">Contact</button></a>
+            <div class="container">
+                
+            
             </div>
-        </div>
+            <div class="container">
+                <ul class="topnav" id="myTopnav">
+                    <li><a class="active" href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                
+                    <li class="icon">
+                        <a href="javascript:void(0);" style="font-size:17px;" onclick="getMenu()">☰</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         
         
@@ -146,13 +155,26 @@ File Name: index.html
                     <h3>Around The Web</h3>
         
                     <!-- Look into those type of nav buttons -->
-                    <a href="https://github.com/Znergy" target="_blank"><button id="github">GitHub</button></a>
-                        <a href="https://www.linkedin.com/in/ryan-jones-5996948b" target="_blank"><button id="linkedIn">LinkedIn</button></a>
-                        <a href="http://znergy.net/" target="_blank"><button id="blog">Blog</button></a>
+                    <a href="https://www.linkedin.com/in/ryan-jones-5996948b" target="_blank">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                        </span></a>
+                    
+                    <a href="https://github.com/znergy" target="_blank">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x"></i>
+                        </span></a>
+                    
+                    <a href="http://znergy.net" target="_blank">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-rss fa-stack-1x"></i>
+                        </span></a>
                 </div>
             </div>
         </div>
-        
         
         
         <!-- Copyright -->
