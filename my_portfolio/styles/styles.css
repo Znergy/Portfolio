@@ -29,30 +29,6 @@ body {
     background-color: #333333; /* Macaroon Cream */
 }
 
-p {
-    
-}
-
-h2 {
-    
-}
-
-h3 {
-    
-}
-
-h4 {
-    
-}
-
-h5 {
-    
-}
-
-.main-container {
-    height: auto;
-}
-
 /***** End of Generic *****/
 
 
@@ -62,6 +38,7 @@ h5 {
     background-color: #1e2e4c; /* Spiced Berry */
     position: fixed;
     z-index: 9;
+    height: 52px;
     width: 100%;
 }
 
@@ -71,36 +48,15 @@ h5 {
     font-weight: 600;
 }
 
-/* Logo */
-
-#logo {
-    
-    margin-top: 5px;
-    margin-bottom: 5px;
+p.logo {
+    color: white;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
 }
 
-/* Nav Buttons */
-
-.navBtns {
-    
-}
-
-/* Nav btn div */
-#navigationBtns {
-    float: right;
-    margin-bottom: 12px;
-    margin-top: 12px;
-}
-
-#btnAbout {
-    
-}
-
-#btnPortfolio {
-    
-}
-
-#btnContact {
+.logo-div {
+    display: inline-block;
     
 }
 
@@ -128,16 +84,6 @@ h5 {
     font-weight: 500;
 }
 
-/* main container */
-
-.about-main-container {
-    margin-top: 20px;
-}
-
-/* sub container */
-.about-content-container {
-    color: white;
-}
 
 /* Description */
 
@@ -163,7 +109,6 @@ h5 {
     background-color: #1e2e4c;
     padding: 30px;
     color: #fff;
-    height: auto;
     width: 100%;
 }
 
@@ -180,18 +125,6 @@ h5 {
 
 .projectImages:hover {
     border: 1px solid #c0c0c0;
-}
-
-/* Project Text */
-
-.projectText {
-    
-}
-
-/* Project a */
-
-#portfolio a {
-    
 }
 
 
@@ -245,10 +178,6 @@ h5 {
 .contact-text {
     padding-top: 30px;
     font-size: 17px;
-}
-
-#finalNote {
-    
 }
 
 /***** End of Contact *****/
